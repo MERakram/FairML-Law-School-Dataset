@@ -2,9 +2,9 @@
 
 ## Dataset Characteristics and Inherent Biases
 
-- The Law School dataset shows a significant **disparate impact** of 0.8194 for the baseline model.
-- Statistical parity difference of -0.1783 indicates that White students have a higher probability of passing the bar exam.
-- Equal opportunity difference of -0.0879 suggests disparities in true positive rates across racial groups.
+- The Law School dataset shows a significant **disparate impact** of 0.8263 for the baseline model.
+- Statistical parity difference of -0.1710 indicates that White students have a higher probability of passing the bar exam.
+- Equal opportunity difference of -0.0838 suggests disparities in true positive rates across racial groups.
 
 ## Effectiveness of Mitigation Techniques
 
@@ -24,7 +24,7 @@
 ## Key Trade-offs and Findings
 
 1. **Accuracy vs. Fairness Trade-off**: Some fairness interventions resulted in accuracy reductions.
-2. **Best Overall Approach**: **Random Forest** provided the best fairness improvements, while **Random Forest** maintained the highest accuracy.
+2. **Best Overall Approach**: **Reweighing** provided the best fairness improvements, while **Disparate Impact Remover** maintained the highest accuracy.
    ...
 
 ## Conclusion
