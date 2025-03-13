@@ -108,11 +108,11 @@ We applied several fairness intervention techniques:
 
 | Technique                | Accuracy | Balanced Accuracy | Statistical Parity Difference | Disparate Impact | Equal Opportunity Difference | Average Odds Difference |
 | ------------------------ | -------- | ----------------- | ----------------------------- | ---------------- | ---------------------------- | ----------------------- |
-| Baseline                 | 0.9016   | 0.6151            | -0.1982                       | 0.7993           | -0.1004                      | -0.2449                 |
-| Reweighing               | 0.9016   | 0.6151            | -0.1318                       | 0.8661           | -0.0875                      | -0.1625                 |
-| Disparate Impact Remover | 0.9017   | 0.6158            | -0.2009                       | 0.7966           | -0.0932                      | -0.2102                 |
-| Random Forest            | 1.0000   | 1.0000            | -0.2017                       | 0.7815           | -0.0952                      | -0.2486                 |
-| Calibrated EqOdds        | 0.8964   | 0.5912            | -0.2085                       | 0.7915           | -0.0241                      | -0.1106                 |
+| Baseline                 | NA       | NA                | NA                            | NA               | NA                           | NA                      |
+| Reweighing               | NA       | NA                | NA                            | NA               | NA                           | NA                      |
+| Disparate Impact Remover | NA       | NA                | NA                            | NA               | NA                           | NA                      |
+| Random Forest            | NA       | NA                | NA                            | NA               | NA                           | NA                      |
+| Calibrated EqOdds        | NA       | NA                | NA                            | NA               | NA                           | NA                      |
 
 ### Best Performing Technique
 
