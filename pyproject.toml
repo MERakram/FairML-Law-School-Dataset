@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fairness-dataset"
+version = "0.1.0"
+description = ""
+authors = ["Akram Meraghni <akram-el-wathek.meraghni@ensea.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.3"
+scipy = "^1.15.2"
+matplotlib = "^3.10.1"
+scikit-learn = "^1.6.1"
+seaborn = "^0.13.2"
+aif360 = {extras = ["reductions"], version = "^0.6.1"}
+blackboxauditing = "^0.1.54"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
